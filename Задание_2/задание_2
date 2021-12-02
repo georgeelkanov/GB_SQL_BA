@@ -1,0 +1,8 @@
+show databases; #база example уже создавалась
+use example;
+show tables;
+show columns from users; #имеется таблица со столбцами id и name;
+alter table users modify column name char(50) null; #добавил тип в колонку Name и атрибут null. 
+#В столбце id указанно int not null primary key auto_increment  
+
+

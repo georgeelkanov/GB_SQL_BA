@@ -1,0 +1,10 @@
+1. Создание дампа
+mysqldump example > example.sql
+
+2. Создание другой базы данных "dumpexample"
+по команде
+mysql> CREATE DATABASE dumpexample;
+
+3. Загрузка базы в dumpexample
+по команде 
+mysql dumpexample < example.sql
